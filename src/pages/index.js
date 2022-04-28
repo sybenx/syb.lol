@@ -2,7 +2,7 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
-  color: "#232129",
+  color: "#1ac914",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -12,15 +12,16 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#339933",
 }
 const paragraphStyles = {
   marginBottom: 48,
 }
+document.body.style.backgroundColor = "#191c26";
 const codeStyles = {
-  color: "#8A6534",
+  color: "#052804",
   padding: 4,
-  backgroundColor: "#FFF4DB",
+  backgroundColor: "#79d676",
   fontSize: "1.25rem",
   borderRadius: 4,
 }
@@ -36,7 +37,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#1ac914",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
@@ -49,7 +50,7 @@ const docLinkStyle = {
 }
 
 const descriptionStyle = {
-  color: "#232129",
+  color: "#1ac914",
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
