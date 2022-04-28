@@ -17,7 +17,6 @@ const headingAccentStyles = {
 const paragraphStyles = {
   marginBottom: 48,
 }
-document.body.style.backgroundColor = "#191c26";
 const codeStyles = {
   color: "#052804",
   padding: 4,
