@@ -129,11 +129,11 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>SYB.LOL</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Welcome
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>: Vantis.Ninja, etc! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
