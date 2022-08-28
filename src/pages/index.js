@@ -60,7 +60,7 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Click Me",
+  text: "Instructions",
   url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   color: "#8954A8",
 }
@@ -91,39 +91,39 @@ const links = [
     color: "#e5a00d",
   },
   {
-    text: "Vantis.ninja",
-    url: "https://www.vantis.ninja/",
-    description:
-      "Instructions for connecting to mc.vantis.ninja",
-    color: "#F30000",
-  },
-  {
-    text: "Discord",
-    url: "https://discord.gg",
+    text: "Plex Discord",
+    url: "https://discord.gg/uke4sy4VmT",
     description:
       "does not exist",
-    color: "#0D96F2",
+    color: "#5662f6",
   },
   {
     text: "Jellyfin",
     url: "https://jelly.aarwares.com/",
     description:
-      "An alternative to Plex media player, more buggy and quirky.",
+      "An alternative to Plex media player, not as good yet.",
     color: "#723287",
   },
   {
-    text: "Nextcloud Drive",
-    url: "https://files.qrkl.xyz",
+    text: "Minecraft - Vantis.ninja",
+    url: "https://www.vantis.ninja/",
     description:
-      "not production ready.",
-    color: "#1099A8",
+      "Connect to mc.vantis.ninja",
+    color: "#a40000",
+  },
+  {
+    text: "Vantis Discord",
+    url: "https://discord.gg/6ekDM2hbrX",
+    description:
+      "does not exist",
+    color: "#5662f6",
   },
   {
     text: "About",
     url: "https://syb.lol/",
     badge: true,
     description:
-      "first",
+      "Are we alone in the universe?",
     color: "#609060",
   },
 ]
@@ -139,7 +139,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>~ . ^ . ~</span>
       </h1>
       <p style={paragraphStyles}>
-        yo
+       Sophisticated nomenclature:
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
