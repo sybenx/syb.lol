@@ -60,8 +60,8 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
+  text: "Click Me",
+  url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   color: "#8954A8",
 }
 
@@ -139,7 +139,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>~ . ^ . ~</span>
       </h1>
       <p style={paragraphStyles}>
-        Services provided:
+        yo
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
