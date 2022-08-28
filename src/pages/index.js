@@ -68,7 +68,7 @@ const docLink = {
 const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
-  border: "1px solid #088413",
+  border: "0px solid #088413",
   fontSize: 11,
   fontWeight: "bold",
   letterSpacing: 1,
@@ -87,15 +87,8 @@ const links = [
     text: "Plex",
     url: "https://plex.aarwares.com",
     description:
-      "Watch stuff",
+      "Media Server",
     color: "#e5a00d",
-  },
-  {
-    text: "Plex Discord",
-    url: "https://discord.gg/uke4sy4VmT",
-    description:
-      "does not exist",
-    color: "#5662f6",
   },
   {
     text: "Jellyfin",
@@ -105,17 +98,24 @@ const links = [
     color: "#723287",
   },
   {
+    text: "Plex Discord",
+    url: "https://discord.gg/uke4sy4VmT",
+    description:
+      "Media request and info",
+    color: "#5662f6",
+  },
+  {
     text: "Minecraft - Vantis.ninja",
     url: "https://sites.google.com/site/vantisninja/",
     description:
       "Connect to mc.vantis.ninja",
-    color: "#a4a40000a400000000",
+    color: "#00AA00",
   },
   {
     text: "Vantis Discord",
     url: "https://discord.gg/6ekDM2hbrX",
     description:
-      "does not exist",
+      "Vantis server status and chat",
     color: "#5662f6",
   },
   {
@@ -123,7 +123,7 @@ const links = [
     url: "https://syb.lol/",
     badge: true,
     description:
-      "Are we alone in the universe?",
+      "first",
     color: "#609060",
   },
 ]
