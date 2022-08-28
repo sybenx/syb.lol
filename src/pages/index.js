@@ -113,7 +113,7 @@ const links = [
   },
   {
     text: "Vantis Discord",
-    url: "https://discord.gg/6ekDM2hbrX",
+    url: "https://discord.gg/BXq8ryg",
     description:
       "Vantis server status and chat",
     color: "#5662f6",
