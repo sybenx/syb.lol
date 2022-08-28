@@ -1,4 +1,5 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -16,6 +17,8 @@ const headingAccentStyles = {
 }
 const paragraphStyles = {
   marginBottom: 48,
+  fontSize: "1rem",
+  color: "#16da16",
 }
 const codeStyles = {
   color: "#052804",
@@ -85,43 +88,43 @@ const links = [
     url: "https://plex.aarwares.com",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
+    color: "#e5a00d",
   },
   {
-    text: "Nextcloud Drive",
-    url: "https://files.qrkl.xyz",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Minecraft Server",
+    text: "Vantis.ninja",
     url: "https://www.vantis.ninja/",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
+      "Instructions for connecting to mc.vantis.ninja",
+    color: "#F30000",
   },
   {
     text: "Discord",
     url: "https://discord.gg",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "does not exist",
     color: "#0D96F2",
   },
   {
     text: "Jellyfin",
     url: "https://jelly.aarwares.com/",
     description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
+      "An alternative to Plex media player, more buggy and quirky.",
+    color: "#723287",
+  },
+  {
+    text: "Nextcloud Drive",
+    url: "https://files.qrkl.xyz",
+    description:
+      "not production ready.",
+    color: "#1099A8",
   },
   {
     text: "About",
     url: "https://syb.lol/",
     badge: true,
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
+      "first",
+    color: "#609060",
   },
 ]
 
@@ -131,19 +134,12 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>SYB.LOL</title>
       <h1 style={headingStyles}>
-        Welcome
+        syb.lol
         <br />
-        <span style={headingAccentStyles}>: Vantis.Ninja, etc! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        <span style={headingAccentStyles}>~ . ^ . ~</span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
+        Services provided:
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
