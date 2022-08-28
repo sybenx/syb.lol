@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
-  color: "#1ac914",
+  color: "#4AEC44",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -13,12 +13,12 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#339933",
+  color: "#6ecf6e",
 }
 const paragraphStyles = {
   marginBottom: 48,
   fontSize: "1rem",
-  color: "#16da16",
+  color: "#4aec44",
 }
 const codeStyles = {
   color: "#052804",
@@ -39,7 +39,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#1ac914",
+  color: "#4aec44",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
@@ -52,7 +52,7 @@ const docLinkStyle = {
 }
 
 const descriptionStyle = {
-  color: "#1ac914",
+  color: "#4aec44",
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
@@ -62,7 +62,7 @@ const descriptionStyle = {
 const docLink = {
   text: "Instructions",
   url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  color: "#8954A8",
+  color: "#4aec44",
 }
 
 const badgeStyle = {
@@ -87,7 +87,7 @@ const links = [
     text: "Plex",
     url: "https://plex.aarwares.com",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Watch stuff",
     color: "#e5a00d",
   },
   {
@@ -106,10 +106,10 @@ const links = [
   },
   {
     text: "Minecraft - Vantis.ninja",
-    url: "https://www.vantis.ninja/",
+    url: "https://sites.google.com/site/vantisninja/",
     description:
       "Connect to mc.vantis.ninja",
-    color: "#a40000",
+    color: "#a4a40000a400000000",
   },
   {
     text: "Vantis Discord",
