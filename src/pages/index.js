@@ -62,7 +62,7 @@ const descriptionStyle = {
 
 const docLink = {
   text: "Instructions",
-  url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  url: "https://youtu.be/dQw4w9WgXcQ",
   color: "#4aec44",
 }
 
@@ -146,7 +146,7 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <a
             style={linkStyle}
-            href={`${docLink.url}?utm_source=syblol`}
+            href={`${docLink.url}`}
           >
             {docLink.text}
           </a>
@@ -156,7 +156,7 @@ const IndexPage = () => {
             <span>
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=syblol`}
+                href={`${link.url}`}
               >
                 {link.text}
               </a>
@@ -173,7 +173,7 @@ const IndexPage = () => {
       <StaticImage
         alt="QRKL CIRLE"
         src="../images/qrkl.png"
-        placeholder="blurred"
+        placeholder="tracedSVG"
       />
     </main>
   )
