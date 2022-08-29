@@ -174,6 +174,7 @@ const IndexPage = () => {
         alt="QRKL CIRLE"
         src="../images/qrkl.png"
         placeholder="tracedSVG"
+        width="20"
       />
     </main>
   )
