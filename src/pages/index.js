@@ -68,8 +68,8 @@ const docLink = {
 
 const badgeStyle = {
   color: "#fff",
-  backgroundColor: "#088413",
-  border: "0px solid #088413",
+  backgroundColor: "#674ea7",
+  border: "0px solid #674ea7",
   fontSize: 11,
   fontWeight: "bold",
   letterSpacing: 1,
@@ -94,6 +94,7 @@ const links = [
   {
     text: "Jellyfin",
     url: "https://jelly.aarwares.com/",
+    badge: true,
     description:
       "An alternative to Plex media player, not as good yet.",
     color: "#723287",
@@ -110,7 +111,7 @@ const links = [
     url: "https://sites.google.com/site/vantisninja/",
     description:
       "Connect to mc.vantis.ninja",
-    color: "#00AA00",
+    color: "#ad1212",
   },
   {
     text: "Vantis Discord",
@@ -122,7 +123,6 @@ const links = [
   {
     text: "About",
     url: "https://syb.lol/",
-    badge: true,
     description:
       "first",
     color: "#609060",
@@ -161,8 +161,8 @@ const IndexPage = () => {
                 {link.text}
               </a>
               {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
+                <span style={badgeStyle} aria-label="Beta Badge">
+                  BETA
                 </span>
               )}
               <p style={descriptionStyle}>{link.description}</p>
@@ -173,6 +173,7 @@ const IndexPage = () => {
       <StaticImage
         alt="QRKL CIRLE"
         src="../images/qrkl.png"
+        placeholder="blurred"
       />
     </main>
   )
