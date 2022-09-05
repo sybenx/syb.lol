@@ -20,6 +20,7 @@ const paragraphStyles = {
   marginBottom: 48,
   fontSize: "1rem",
   color: "#4aec44",
+  maxWidth: 400,
 }
 const codeStyles = {
   color: "#052804",
@@ -61,8 +62,8 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Instructions",
-  url: "https://youtu.be/dQw4w9WgXcQ",
+  text: "Home",
+  url: "https://syb.lol",
   color: "#4aec44",
 }
 
@@ -84,56 +85,7 @@ const badgeStyle = {
 
 // data
 const links = [
-  {
-    text: "Plex",
-    url: "https://plex.aarwares.com",
-    description:
-      "'Watch anytime, anywhere with Plex'",
-    color: "#e5a00d",
-  },
-  {
-    text: "Jellyfin",
-    url: "https://jelly.aarwares.com/",
-    badge: true,
-    description:
-      "'The Free Software Media System' < Plex",
-    color: "#723287",
-  },
-  {
-    text: "Plex Discord",
-    url: "https://discord.gg/uke4sy4VmT",
-    description:
-      "Media request and info",
-    color: "#5662f6",
-  },
-  {
-    text: "Nextcloud on QRKL",
-    url: "https://files.qrkl.xyz/",
-    description:
-      "'Nextcloud server, a safe home for all your data'",
-    color: "#088FD9",
-  },
-  {
-    text: "Minecraft - Vantis.ninja",
-    url: "https://sites.google.com/site/vantisninja/",
-    description:
-      "Connect to mc.vantis.ninja",
-    color: "#ad1212",
-  },
-  {
-    text: "Vantis Discord",
-    url: "https://discord.gg/BXq8ryg",
-    description:
-      "Vantis server status and chat",
-    color: "#5662f6",
-  },
-  {
-    text: "Post 1",
-    url: "https://syb.lol/post1",
-    description:
-      "first",
-    color: "#609060",
-  },
+
 ]
 
 // markup
@@ -146,8 +98,23 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>~ . ^ . ~</span>
       </h1>
+      <h3>
+      	I feel bad for Google
+      </h3>
       <p style={paragraphStyles}>
-       Sophisticated nomenclature:
+       Once upon a time, Google was our hero, even our friend. Today it is the villain. The enemy. Taking advantage of every opportunity it gets to abuse its power, embed itself into the governments around the world that will partner with it (moral attrocities ignored, not to mention the casual user's wellbeing). Google has become a behemoth concerned with its own survival before the survival of anything or anyone else. 
+      <br/><br/>
+       I remember the days when I relished the idea of downloading Chrome on the next computer I used. How much Google Docs revolutionized creating documents. From random shutdowns deleting all your work to being able to seamlessly access your work on any machine you had access to, never losing any progress ever.
+       <br/><br/>
+       Some of this is still true about Google. But this is also the company that's detached itself from reality. Google News is the targetted PR machine, serving whatever whims its political ally's request.
+       <br/><br/>
+       Will we ever get back to the "Good ole' days?"... Or are those days over? Will Google sink further into becoming the New Standard Oil or AT&T of old. Monopolies that are so entrenched they are inexplicably linked to surviving on monopolistic power by means of government favors and regulation hellbent on pushing the little guy down.
+       <br/><br/>
+       Unsure. Good luck to us I guess
+       <br/><br/><br/><br/>
+       <b>Aaron</b>
+       <br/><br/>
+       <i>2022-9-5 9:55AM</i>
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
