@@ -88,7 +88,7 @@ const links = [
     text: "Plex",
     url: "https://plex.aarwares.com",
     description:
-      "Media Server",
+      "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
   },
   {
@@ -96,7 +96,7 @@ const links = [
     url: "https://jelly.aarwares.com/",
     badge: true,
     description:
-      "An alternative to Plex media player, not as good yet.",
+      "'The Free Software Media System' < Plex",
     color: "#723287",
   },
   {
@@ -105,6 +105,13 @@ const links = [
     description:
       "Media request and info",
     color: "#5662f6",
+  },
+  {
+    text: "Nextcloud on QRKL",
+    url: "https://files.qrkl.xyz/",
+    description:
+      "'Nextcloud server, a safe home for all your data'",
+    color: "#088FD9",
   },
   {
     text: "Minecraft - Vantis.ninja",
