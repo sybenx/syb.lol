@@ -158,7 +158,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         syb.lol
         <br />
-        <span style={headingAccentStyles}>~ . ^ . ~</span>
+        <span style={headingAccentStyles}>~ ° ^ ° ~</span>
       </h1>
       <p style={paragraphStyles}>
        Sophisticated nomenclature:
