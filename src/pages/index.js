@@ -85,14 +85,14 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Plex",
+    text: "Plex on Aarwares",
     url: "https://plex.aarwares.com",
     description:
       "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
   },
   {
-    text: "Jellyfin",
+    text: "Jellyfin on Aarwares",
     url: "https://jelly.aarwares.com/",
     badge: true,
     description:
