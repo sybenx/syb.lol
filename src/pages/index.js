@@ -154,7 +154,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>SYB.LOL</title>
+      <title>syb.lol</title>
       <h1 style={headingStyles}>
         syb.lol
         <br />
