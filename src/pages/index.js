@@ -107,6 +107,13 @@ const links = [
     color: "#5662f6",
   },
   {
+    text: "Plex Stats",
+    url: "https://plexstats.aarwares.com",
+    description:
+      "Tautulli",
+    color: "Orange",
+  },
+  {
     text: "Nextcloud on QRKL",
     url: "https://files.qrkl.xyz/",
     description:
@@ -126,6 +133,13 @@ const links = [
     description:
       "Vantis server status and chat",
     color: "#5662f6",
+  },
+  {
+    text: "MC Stats",
+    url: "https://mcstats.aarwares.com",
+    description:
+      "Plan | Analytics",
+    color: "Green",
   },
   {
     text: "Post 1",
