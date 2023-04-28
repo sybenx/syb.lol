@@ -87,6 +87,7 @@ const links = [
   {
     text: "Plex on Aarwares",
     url: "https://plex.aarwares.com",
+    badge: true,
     description:
       "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
@@ -109,22 +110,31 @@ const links = [
   {
     text: "Plex Stats",
     url: "https://plexstats.aarwares.com",
+    badge: true,
     description:
       "Tautulli",
     color: "Orange",
   },
   {
-    text: "Nextcloud on QRKL",
-    url: "https://files.qrkl.xyz/",
+    text: "Nextcloud on Oracle",
+    url: "https://ncloud.syb.lol/",
     description:
-      "'Nextcloud server, a safe home for all your data'",
+      "'Nextcloud server, hosted on Oracle (200GB)'",
+    color: "#088FD9",
+  },
+  {
+    text: "Nextcloud on Pop!_OS",
+    url: "https://nextcloud.aaronis.ninja/",
+    badge: true,
+    description:
+      "'Nextcloud server, hosted on Starlink (10TB)'",
     color: "#088FD9",
   },
   {
     text: "Minecraft - Vantis.ninja",
     url: "https://sites.google.com/site/vantisninja/",
     description:
-      "Connect to mc.vantis.ninja",
+      "Connect with mc.vantis.ninja or aaronis.ninja",
     color: "#ad1212",
   },
   {
@@ -137,6 +147,7 @@ const links = [
   {
     text: "MC Stats",
     url: "https://mcstats.aarwares.com",
+    badge: true,
     description:
       "Plan | Analytics",
     color: "Green",
@@ -183,7 +194,7 @@ const IndexPage = () => {
               </a>
               {link.badge && (
                 <span style={badgeStyle} aria-label="Beta Badge">
-                  BETA
+                  cloudflare
                 </span>
               )}
               <p style={descriptionStyle}>{link.description}</p>
