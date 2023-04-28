@@ -127,14 +127,14 @@ const links = [
     url: "https://nextcloud.aaronis.ninja/",
     badge: true,
     description:
-      "'Nextcloud server, hosted on Starlink (10TB)'",
+      "'Nextcloud server, hosted on Starlink (10TB), alternatively: https://popos/'",
     color: "#088FD9",
   },
   {
     text: "Minecraft - Vantis.ninja",
     url: "https://sites.google.com/site/vantisninja/",
     description:
-      "Connect with mc.vantis.ninja or aaronis.ninja",
+      "Connect with mc.vantis.ninja or aaronis.ninja, proxied via playit.gg",
     color: "#ad1212",
   },
   {
