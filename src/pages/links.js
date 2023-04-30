@@ -144,7 +144,7 @@ const links = [
     url: "http://zeusware:4000",
     badge: true,
     description:
-      "Movies tracker",
+      "files browser (12TB)",
     color: "Orange",
   },
  {
