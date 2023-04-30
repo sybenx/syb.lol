@@ -68,8 +68,8 @@ const docLink = {
 
 const badgeStyle = {
   color: "#fff",
-  backgroundColor: "#674ea7",
-  border: "0px solid #674ea7",
+  backgroundColor: "#D2691E",
+  border: "0px solid #D2691E",
   fontSize: 11,
   fontWeight: "bold",
   letterSpacing: 1,
