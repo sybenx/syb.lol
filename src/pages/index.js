@@ -144,7 +144,8 @@ const links = [
       "Vantis server status and chat",
     color: "#5662f6",
   },
-  {
+  /*
+ {
     text: "MC Stats",
     url: "https://mcstats.aarwares.com",
     badge: true,
@@ -152,6 +153,7 @@ const links = [
       "Plan | Analytics",
     color: "Green",
   },
+  */
   {
     text: "Post 1",
     url: "https://syb.lol/post1",
