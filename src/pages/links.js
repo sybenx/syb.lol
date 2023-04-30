@@ -86,7 +86,7 @@ const badgeStyle = {
 const links = [
   {
     text: "Plex on Zeusware",
-    url: "https://zeusware:32400",
+    url: "http://zeusware:32400",
     badge: true,
     description:
       "'Watch anytime, anywhere with Plex'",
@@ -94,7 +94,7 @@ const links = [
   },
   {
     text: "Jellyfin on Zeusware",
-    url: "https://zeusware:8096/",
+    url: "http://zeusware:8096/",
     badge: true,
     description:
       "'The Free Software Media System' < Plex",
@@ -102,7 +102,7 @@ const links = [
   },
   {
     text: "Plex Stats (Tautulli",
-    url: "https://zeusware:8181",
+    url: "http://zeusware:8181",
     badge: true,
     description:
       "Tautulli",
@@ -117,7 +117,7 @@ const links = [
   },
   {
     text: "Nextcloud on Pop!_OS",
-    url: "https://popos/",
+    url: "http://popos/",
     badge: true,
     description:
       "'Nextcloud server, hosted on Starlink (10TB), alternatively: https://popos/'",
@@ -125,14 +125,14 @@ const links = [
   },
   {
     text: "Sonarr",
-    url: "https://sonarr.aarwares.com/",
+    url: "http://zeusware:8989/",
     description:
       "TV Shows tracker",
     color: "lightblue",
   },
   {
     text: "Radarr",
-    url: "https://radarr.aarwares.com",
+    url: "http://zeusware:7878/",
     badge: true,
     description:
       "Movies tracker",
@@ -140,7 +140,7 @@ const links = [
   },
   {
     text: "FileBrowser",
-    url: "https://zeusware:4000",
+    url: "http://zeusware:4000",
     badge: true,
     description:
       "Movies tracker",
@@ -148,7 +148,7 @@ const links = [
   },
  {
     text: "MCSS Remote Panel",
-    url: "https://zeusware:25560",
+    url: "http://zeusware:25560",
     badge: true,
     description:
       "Panel",
