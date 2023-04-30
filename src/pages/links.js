@@ -68,7 +68,7 @@ const docLink = {
 
 const badgeStyle = {
   color: "#fff",
-  backgroundColor: "#98221C",
+  backgroundColor: "Green",
   border: "0px solid #FF4500",
   fontSize: 11,
   fontWeight: "bold",
@@ -126,6 +126,7 @@ const links = [
   {
     text: "Sonarr",
     url: "http://zeusware:8989/",
+    badge: true,
     description:
       "TV Shows tracker",
     color: "lightblue",
@@ -188,8 +189,8 @@ const IndexPage = () => {
                 {link.text}
               </a>
               {link.badge && (
-                <span style={badgeStyle} aria-label="Beta Badge">
-                  cloudflare
+                <span style={badgeStyle} aria-label="Tailscale">
+                  tailscale
                 </span>
               )}
               <p style={descriptionStyle}>{link.description}</p>
