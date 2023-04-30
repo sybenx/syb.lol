@@ -7,5 +7,4 @@
   Gatsby hosted
 </h1>
 
-### [syb.lol](https://syb.lol/)
-#### [~ ° ^ ° ~](https://syb.lol/)
+# [syb.lol](https://syb.lol/)</br>[~ ° ^ ° ~](https://syb.lol/)
