@@ -155,11 +155,11 @@ const links = [
   },
   */
   {
-    text: "Post 1",
-    url: "https://syb.lol/post1",
+    text: "X",
+    url: "https://x.com/syben_",
     description:
-      "first",
-    color: "#609060",
+      "neuron",
+    color: "#FFFFFF",
   },
 ]
 
