@@ -85,6 +85,14 @@ const badgeStyle = {
 // data
 const links = [
   {
+    text: "Aarwares",
+    url: "https://aarwares.com",
+    badge: true,
+    description:
+      "personal projects",
+    color: "#e5a00d",
+  },
+  {
     text: "Plex on Aarwares",
     url: "https://plex.aarwares.com",
     badge: true,
