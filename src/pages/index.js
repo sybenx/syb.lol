@@ -90,7 +90,7 @@ const links = [
     badge: true,
     description:
       "personal projects",
-    color: "#e5a00d",
+    color: "#00FF00",
   },
   {
     text: "Plex on Aarwares",
