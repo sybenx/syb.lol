@@ -89,7 +89,7 @@ const links = [
     url: "https://aarwares.com",
     badge: true,
     description:
-      "personal projects",
+      "stuff for sale",
     color: "#00FF00",
   },
   {
