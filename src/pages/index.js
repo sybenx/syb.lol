@@ -93,6 +93,14 @@ const links = [
     color: "#00FF00",
   },
   {
+    text: "Aaro.cc",
+    url: "https://aaro.cc",
+    badge: true,
+    description:
+      "Aaro.cc media services links",
+    color: "#00FFAA",
+  },
+  {
     text: "Plex on Aarwares",
     url: "https://plex.aarwares.com",
     badge: true,
