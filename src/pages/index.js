@@ -61,8 +61,8 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Instructions",
-  url: "https://youtu.be/dQw4w9WgXcQ",
+  text: "*",
+  url: "https://aaro.cc",
   color: "#4aec44",
 }
 
@@ -85,15 +85,7 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Aarwares",
-    url: "https://aarwares.com",
-    badge: true,
-    description:
-      "Bartender, etc.",
-    color: "#00FF00",
-  },
-  {
-    text: "Aaro.cc",
+    text: "aaro.cc",
     url: "https://aaro.cc",
     badge: true,
     description:
@@ -101,16 +93,24 @@ const links = [
     color: "#3cc806",
   },
   {
-    text: "Plex on Aarwares",
-    url: "https://plex.aarwares.com",
+    text: "AarWares",
+    url: "https://aarwares.com",
+    badge: true,
+    description:
+      "Bartender, etc.",
+    color: "#0000FF",
+  },
+  {
+    text: "Plex on aaro.cc",
+    url: "https://plex.aaro.cc",
     badge: true,
     description:
       "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
   },
   {
-    text: "Jellyfin on Aarwares",
-    url: "https://jelly.aarwares.com/",
+    text: "Jellyfin on aaro.cc",
+    url: "https://jellyfin.aaro.cc/",
     badge: true,
     description:
       "'The Free Software Media System' < Plex",
@@ -132,25 +132,18 @@ const links = [
     color: "Orange",
   },
   {
-    text: "Nextcloud on Oracle",
-    url: "https://ncloud.syb.lol/",
-    description:
-      "'Nextcloud server, hosted on Oracle (200GB)'",
-    color: "#088FD9",
-  },
-  {
-    text: "Nextcloud on Pop!_OS",
-    url: "https://nextcloud.aaronis.ninja/",
+    text: "Nextcloud on aaro.cc",
+    url: "https://nextcloud.aaro.cc/",
     badge: true,
     description:
-      "'Nextcloud server, hosted on Starlink (10TB), alternatively: https://popos/'",
+      "'Nextcloud server, hosted on Starlink (200GB)'",
     color: "#088FD9",
   },
   {
-    text: "Minecraft - Vantis.ninja",
-    url: "https://sites.google.com/site/vantisninja/",
+    text: "Minecraft - Vantis.Ninja",
+    url: "https://vantis.ninja/",
     description:
-      "Connect with mc.vantis.ninja or aaronis.ninja, proxied via playit.gg",
+      "Connect with mc.vantis.ninja with Java or Bedrock",
     color: "#ad1212",
   },
   {
@@ -162,14 +155,13 @@ const links = [
   },
   /*
  {
-    text: "MC Stats",
-    url: "https://mcstats.aarwares.com",
+    text: "Minecraft playtime and stats",
+    url: "https://plananalytics.vantis.ninja",
     badge: true,
     description:
       "Plan | Analytics",
     color: "Green",
   },
-  */
   {
     text: "X",
     url: "https://x.com/syben_",
@@ -177,6 +169,7 @@ const links = [
       "neuron",
     color: "#FFFFFF",
   },
+  */
 ]
 
 // markup
@@ -190,7 +183,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>~ ° ^ ° ~</span>
       </h1>
       <p style={paragraphStyles}>
-       Sophisticated nomenclature:
+       Sites and hosted services:
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
