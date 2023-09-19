@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby hosted
+  Gatsby on netlify
 </h1>
 
 # [syb.lol](https://syb.lol/)</br>[~ ° ^ ° ~](https://syb.lol/)
