@@ -98,7 +98,7 @@ const links = [
     badge: true,
     description:
       "Aaro.cc media services links",
-    color: "#3cc806",
+    color: "#00FFAA",
   },
   {
     text: "Plex on Aarwares",
