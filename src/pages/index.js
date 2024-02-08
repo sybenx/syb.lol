@@ -101,19 +101,19 @@ const links = [
     color: "#0000FF",
   },
   {
-    text: "Plex on aaro.cc",
-    url: "https://plex.aaro.cc",
-    badge: true,
+    text: "Plex on syb.lol",
+    url: "https://plex.syb.lol",
+    badge: false,
     description:
       "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
   },
   {
-    text: "Jellyfin on aaro.cc",
-    url: "https://jellyfin.aaro.cc/",
-    badge: true,
+    text: "Jellyfin on syb.lol",
+    url: "https://jellyfin.syb.lol/",
+    badge: false,
     description:
-      "'The Free Software Media System' < Plex",
+      "Watch anytime anywhere *without ads*",
     color: "#723287",
   },
   {
@@ -123,6 +123,7 @@ const links = [
       "Media request and info",
     color: "#5662f6",
   },
+  /*
   {
     text: "Plex Stats",
     url: "https://plexstats.aarwares.com",
@@ -131,19 +132,20 @@ const links = [
       "Tautulli",
     color: "Orange",
   },
+  */
   {
     text: "Nextcloud on aaro.cc",
     url: "https://nextcloud.aaro.cc/",
     badge: true,
     description:
-      "'Nextcloud server, hosted on Starlink (200GB)'",
+      "'Nextcloud server, hosted on Starlink (1000GB)'",
     color: "#088FD9",
   },
   {
     text: "Minecraft - Vantis.Ninja",
     url: "https://vantis.ninja/",
     description:
-      "Connect with mc.vantis.ninja with Java or Bedrock",
+      "A Minecraft community since 2016",
     color: "#ad1212",
   },
   {
