@@ -85,16 +85,16 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Plex on Zeusware",
-    url: "http://zeusware:32400",
+    text: "Plex on Thorware",
+    url: "http://thorware:32400",
     badge: true,
     description:
       "'Watch anytime, anywhere with Plex'",
     color: "#e5a00d",
   },
   {
-    text: "Jellyfin on Zeusware",
-    url: "http://zeusware:8096/",
+    text: "Jellyfin on Thorware",
+    url: "http://thorware:8096/",
     badge: true,
     description:
       "'The Free Software Media System' < Plex",
@@ -102,30 +102,22 @@ const links = [
   },
   {
     text: "Plex Stats (Tautulli",
-    url: "http://zeusware:8181",
+    url: "http://thorware:8181",
     badge: true,
     description:
       "Tautulli",
     color: "Orange",
   },
   {
-    text: "Nextcloud on Oracle",
-    url: "https://ncloud.syb.lol/",
+    text: "Nextcloud via VPS",
+    url: "https://nextcloud.syb.lol/",
     description:
-      "'Nextcloud server, hosted on Oracle (200GB)'",
-    color: "#088FD9",
-  },
-  {
-    text: "Nextcloud on Pop!_OS",
-    url: "http://popos/",
-    badge: true,
-    description:
-      "'Nextcloud server, hosted on Starlink (10TB), alternatively: https://popos/'",
+      "'Nextcloud server, hosted local (1000GB)'",
     color: "#088FD9",
   },
   {
     text: "Sonarr",
-    url: "http://zeusware:8989/",
+    url: "http://thorware:8989/",
     badge: true,
     description:
       "TV Shows tracker",
@@ -133,7 +125,7 @@ const links = [
   },
   {
     text: "Radarr",
-    url: "http://zeusware:7878/",
+    url: "http://thorware:7878/",
     badge: true,
     description:
       "Movies tracker",
@@ -141,7 +133,7 @@ const links = [
   },
   {
     text: "FileBrowser",
-    url: "http://zeusware:4000",
+    url: "http://thorware:4000",
     badge: true,
     description:
       "files browser (12TB)",
@@ -149,7 +141,7 @@ const links = [
   },
  {
     text: "MCSS Remote Panel",
-    url: "http://zeusware:25560",
+    url: "http://beelink:25560",
     badge: true,
     description:
       "Panel",
